@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+:root {
+  /* font-weight */
+  --fw-500: 500;
+  --fw-800: 800;
+  /* font-size */
+  --fs-xsm: 12px;
+  --fs-sm: 14px;
+  --fs-md: 16px;
+  --fs-lg: 18px;
+  --fs-xl: 14px;
+  --fs-xxl: 26px;
+  --fs-3xl: 30px;
+  --fs-4xl: 41px;
+
+  /* text-color */
+  --text-color-black: #202020;
+  --text-color-gray: #7c8592;
+  --text-color-primary: #007aff;
+  --text-color-dark-gray: #475467;
+  --text-color-dark-yellow: #ffaa2e;
+  --text-color-dark-orange: #ff713e;
+}
+.color_gray {
+  color: #c0c4ca;
+}
+/* Font Family */
+.ff_inter {
+  font-family: "Inter";
+}
+/* Font Weights */
+.fw_500 {
+  font-weight: var(--fw-500);
+}
+.fw_800 {
+  font-weight: var(--fw-800);
+}
+
+/* font-size */
+
+.fs_xsm {
+  font-size: var(--fs-xsm);
+}
+.fs_sm {
+  font-size: var(--fs-sm);
+}
+.fs_md {
+  font-size: var(--fs-md);
+}
+.fs_lg {
+  font-size: var(--fs-lg);
+}
+.fs_xl {
+  font-size: var(--fs-xl);
+}
+.fs_xxl {
+  font-size: var(--fs-xxl);
+}
+.fs_3xl {
+  font-size: var(--fs-3xl);
+}
+.fs_4xl {
+  font-size: var(--fs-4xl);
+}
+
+/* text-color */
+
+.text_primary {
+  color: var(--text-color-primary);
+}
+.text_gray {
+  color: var(--text-color-gray);
+}
+.text_dark_gray {
+  color: var(--text-color-dark-gray);
+}
+.text_black {
+  color: var(--text-color-black);
+}
+.text_yellow {
+  color: var(--text-color-dark-yellow);
+}
+.text_orange {
+  color: var(--text-color-dark-orange);
+}
+/* ========= */
+.py_32 {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.mb_10 {
+  margin-bottom: 10px;
+}
+.mb_32 {
+  margin-bottom: 32px;
+}
+/* line height */
+.lh_28 {
+  line-height: 28px;
+}
+.lh_32 {
+  line-height: 20px;
+}
+/* letter spacing */
+.letter_spacing {
+  letter-spacing: 0.45px;
+}
+.letter_spacing_2 {
+  letter-spacing: 0.14px;
+}
+.letter_spacing_3 {
+  letter-spacing: 0.24px;
+}
+
+/* Common */
+.Button_common {
+  padding: 10px 18px 10px 18px;
+  border-radius: 8px;
+  border: 2px solid var(--colours-primary-blue, #007aff);
+  background: var(--colours-primary-blue, #007aff);
+  box-shadow: 0px 6px 16px -4px rgba(16, 24, 40, 0.08);
+  color: #ffffff;
+  transition: all ease-in-out 300ms !important;
+}
+.Button_common:hover {
+  padding: 10px 18px 10px 18px;
+  border-radius: 8px;
+  border: 2px solid var(--colours-primary-blue, #007aff);
+  background: var(--copy-white, #fff);
+  box-shadow: 0px 6px 16px -4px rgba(16, 24, 40, 0.08);
+  color: #007aff;
+}
+
+@media (min-width: 576px) {
+  :root {
+    /* font-size */
+    --fs-xsm: 12px;
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-lg: 18px;
+    --fs-xl: 24px;
+    --fs-xxl: 40px;
+    --fs-3xl: 45px;
+    --fs-4xl: 64px;
+  }
+  .lh_32 {
+    line-height: 32px;
+  }
+}
