@@ -302,6 +302,13 @@ svg {
   border-radius: 15px;
   height: 250px;
 }
+.hover_links {
+  transition: all ease-in-out 300ms !important;
+}
+.hover_links:hover {
+  transform: translateY(-20%);
+  transition: all ease-in-out 300ms !important;
+}
 /* Articles & Resources */
 .h_300 {
   height: 298px;
@@ -388,8 +395,8 @@ svg {
     background-image: url(../imgs/png/bg_image.png) !important;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
+    background-size: 100% 100%;
+    min-height: 70vh;
   }
   .h_600 {
     height: 614px;
@@ -421,5 +428,11 @@ svg {
   }
   .w_header_imgs {
     width: 350px;
+  }
+}
+@media (min-width: 1400px) {
+  .bg_linear_hero {
+    background: linear-gradient(0deg, #fff 21.38%, #e8f1ff 99.15%);
+    min-height: 50vh;
   }
 }
