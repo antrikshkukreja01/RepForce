@@ -372,7 +372,14 @@ svg {
   height: 8px;
   width: 8px;
 }
-
+.img_shadow {
+  border: 1px solid white;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.388);
+  border-radius: 50%;
+}
+.end-54 {
+  right: -54%;
+}
 /* Media Quries  */
 
 @media (min-width: 576px) {
