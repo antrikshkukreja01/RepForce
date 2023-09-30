@@ -185,7 +185,7 @@ svg {
   background-image: none !important;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   min-height: 100vh;
 }
 .navigation_box_1 {
