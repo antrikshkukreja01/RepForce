@@ -430,9 +430,3 @@ svg {
     width: 350px;
   }
 }
-@media (min-width: 1400px) {
-  .bg_linear_hero {
-    background: linear-gradient(0deg, #fff 21.38%, #e8f1ff 99.15%);
-    min-height: 50vh;
-  }
-}
