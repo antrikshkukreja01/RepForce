@@ -308,14 +308,14 @@ svg {
 .h_600 {
   height: 100%;
 }
-.blur_hover {
+/* .blur_hover {
   filter: blur(3px);
   transition: all ease-in-out 300ms !important;
 }
 .blur_hover:hover {
   transition: all ease-in-out 300ms !important;
   filter: blur(0px);
-}
+} */
 .overlay_box {
   background: rgba(0, 0, 0, 0.6);
   padding: 32px 23px;
