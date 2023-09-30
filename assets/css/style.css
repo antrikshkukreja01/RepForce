@@ -8,6 +8,9 @@
 .container {
   max-width: 1216px !important;
 }
+bod y {
+  overflow: hidden !important;
+}
 .bg_linear_hero {
   background: linear-gradient(0deg, #fff 21.38%, #e8f1ff 99.15%);
   min-height: 85vh;
@@ -54,7 +57,59 @@
 .h_278 {
   height: 100% !important;
 }
+/* Back to top */
+#myBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  height: 50px;
+  width: 50px;
+  z-index: 1;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #007aff;
+  color: white;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.animat_topbtn {
+  animation: topbtn 3s linear 0.1s infinite forwards;
+}
+
+@keyframes topbtn {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-15px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+/* Preloder */
+
+svg {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 150px;
+  width: 150px;
+}
+
 /* Nav */
+.navbar-toggler-icon {
+  background-image: url(../imgs/png/nev_icon.png) !important;
+  width: 35px !important;
+}
+.navbar-toggler {
+  box-shadow: none !important;
+}
 .nav_hover::before {
   content: "";
   width: 0%;
@@ -251,7 +306,7 @@
   height: 298px;
 }
 .h_600 {
-  height: 614px;
+  height: 100%;
 }
 .blur_hover {
   filter: blur(3px);
@@ -334,6 +389,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
+  }
+  .h_600 {
+    height: 614px;
   }
 }
 @media (min-width: 992px) {
