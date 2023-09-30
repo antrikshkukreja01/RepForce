@@ -8,9 +8,7 @@
 .container {
   max-width: 1216px !important;
 }
-bod y {
-  overflow: hidden !important;
-}
+
 .bg_linear_hero {
   background: linear-gradient(0deg, #fff 21.38%, #e8f1ff 99.15%);
   min-height: 85vh;
@@ -56,6 +54,9 @@ bod y {
 }
 .h_278 {
   height: 100% !important;
+}
+.bottom_40 {
+  bottom: 40%;
 }
 /* Back to top */
 #myBtn {
